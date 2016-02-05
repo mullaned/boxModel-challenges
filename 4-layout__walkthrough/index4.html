@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Box Model</title>
+		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+
+			#container {
+    				margin-right: auto; /*Auto margins used for centering elements*/
+    				margin-left: auto; 
+    				width: 960px; 
+    				padding: 10px;
+    				border-radius: 10px;  
+    				font-size:0;
+    				
+					}
+			.box{
+				width: 200px;
+            	height: 120px;
+            	background-color: #81BBC9;
+           		margin: 10px;
+            	border-radius: 10px;
+            	display: inline-block;
+            	width: 100%;
+            	padding-top: 5px;
+            	padding-bottom: 5px;
+            	font-size: 10px; 
+
+			}
+			h1 {
+				
+				text-align: center;
+				font-size: 20px;
+				padding: 10px;
+  			}
+
+  			#sidebar {
+  				display: inline-block;
+  				height: 320px;
+  				width: 49%;
+  				float: left;
+  				background-color: #81BBC9;
+  				border-radius: 10px;
+  				margin-left: 10px;
+  				
+
+  				
+  			}
+
+  			#Content {
+  				display: inline-block;
+  				height: 320px;
+  				width: 49%;
+  				float: right;
+  				background-color: #81BBC9;
+  				border-radius: 10px;
+  				margin-right: -10px;
+  				
+
+  				
+  			}
+
+  			#header {
+  				width: 200px;
+            	height: 120px;
+            	background-color: #81BBC9;
+           		margin: 10px;
+            	border-radius: 10px;
+            	display: inline-block;
+            	width: 100%;
+            	padding-top: 5px;
+            	padding-bottom: 5px;
+            	font-size: 10px; 
+  			}
+
+  			#footer {
+  				width: 200px;
+            	height: 120px;
+            	background-color: #81BBC9;
+           		margin: 10px;
+            	border-radius: 10px;
+            	display: inline-block;
+            	width: 100%;
+            	padding-top: 5px;
+            	padding-bottom: 5px;
+            	font-size: 10px; 
+  			}
+
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+			<div class="#">
+				<h1>Header</h1>
+			</div></div>
+    		<div id="sidebar">
+    		<div class="#">
+    			<h1>Sidebar</h1>
+    		</div></div>
+    		<div id="Content">
+    		<div class="#">
+    			<h1>Content</h1>
+    		</div></div>
+    		<div id="footer">
+    		<div class="#">
+    			<h1 >Footer</h1>
+    		</div></div>
+    		
+		</div>
+	</body>
+</html>
